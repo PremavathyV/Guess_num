@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-card">
+        <div class="icon">🎯</div>
+        <h1>Number Guessing Game</h1>
+        <p class="subtitle">Can you crack the secret number between 1 and 10?</p>
+
+        <div class="input-group">
+            <input type="number" id="guessInput" min="1" max="10" placeholder="Enter a number" />
+            <button onclick="guessNumber()">Guess</button>
+        </div>
+
+        <button class="secondary-btn" onclick="startGame()">New Game</button>
+
+        <div class="status-card">
+            <p id="attempts">Attempts: 0</p>
+            <p id="result">A new secret number is ready. Make your first guess!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
