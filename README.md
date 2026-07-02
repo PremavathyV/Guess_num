@@ -2,11 +2,6 @@
 
 A simple and interactive Number Guessing Game built using **HTML**, **CSS**, and **JavaScript**. The player has to guess a randomly generated number between **1 and 10**. The game provides hints whether the guess is too high or too low and tracks the number of attempts.
 
----
-
-## 📸 Preview
-
-<img src="screenshot.png" alt="Number Guessing Game" width="700">
 
 ---
 
